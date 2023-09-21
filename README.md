@@ -6,6 +6,14 @@
   <b><i>My very first own library</i></b>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/grade-125/100-brightgreen"/>
+  <img src="https://img.shields.io/github/directory-file-count/itshanine/42-libft?color=%23FFC3E5"/>
+  <img src="https://img.shields.io/github/languages/count/itshanine/42-libft?color=%23FFC3E5" />
+  <img src="https://img.shields.io/github/languages/top/itshanine/42-libft?color=%23FFC3E5" />
+  <img src="https://img.shields.io/github/last-commit/itshanine/42-libft?color=%23FFC3E5" />
+</p>
+
 ---
 
 <h2>
