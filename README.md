@@ -1,5 +1,5 @@
 <h1 align="center">
-  42-libft
+  📚 42-libft
 </h1>
 
 <p align="center">
@@ -15,6 +15,12 @@
 ``make`` to compile <b>without</b> bonus functions.
 
 ``make bonus`` to compile <b>with</b> bonus functions.
+
+``make clean`` to delete all object files.
+
+``make fclean`` to delete object files and <b>libft.a</b>.
+
+``make re`` to delete everything and rebuild libft.
 
 <h2>
   📋 Testing
