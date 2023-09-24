@@ -46,7 +46,6 @@
 | [ft_strlcpy.c](https://github.com/itshanine/42-libft/blob/main/ft_strlcpy.c)           | Safely copy a string to a buffer.             |
 | [ft_strlen.c](https://github.com/itshanine/42-libft/blob/main/ft_strlen.c)             | Calculate the length of a string.             |
 | [ft_memcmp.c](https://github.com/itshanine/42-libft/blob/main/ft_memcmp.c)             | Compare two blocks of memory.                |
-| [Makefile](https://github.com/itshanine/42-libft/blob/main/Makefile)                   | Makefile for building the library.           |
 | [ft_putnbr_fd.c](https://github.com/itshanine/42-libft/blob/main/ft_putnbr_fd.c)       | Print an integer to a file descriptor.       |
 | [ft_memcpy.c](https://github.com/itshanine/42-libft/blob/main/ft_memcpy.c)             | Copy memory from one location to another.    |
 | [ft_putendl_fd.c](https://github.com/itshanine/42-libft/blob/main/ft_putendl_fd.c)     | Print a string followed by a newline to a file descriptor. |
@@ -55,7 +54,6 @@
 | [ft_bzero.c](https://github.com/itshanine/42-libft/blob/main/ft_bzero.c)               | Set a block of memory to zero.               |
 | [ft_strjoin.c](https://github.com/itshanine/42-libft/blob/main/ft_strjoin.c)           | Concatenate two strings.                     |
 | [ft_isascii.c](https://github.com/itshanine/42-libft/blob/main/ft_isascii.c)           | Check if a character is ASCII.              |
-| [libft.h](https://github.com/itshanine/42-libft/blob/main/libft.h)                     | Header file for the library functions.       |
 | [ft_isprint.c](https://github.com/itshanine/42-libft/blob/main/ft_isprint.c)           | Check if a character is printable.           |
 | [ft_memset.c](https://github.com/itshanine/42-libft/blob/main/ft_memset.c)             | Set a block of memory to a specified value.  |
 | [ft_substr.c](https://github.com/itshanine/42-libft/blob/main/ft_substr.c)             | Extract a substring from a string.           |
