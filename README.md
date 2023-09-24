@@ -71,6 +71,8 @@
 | [ft_isalpha.c](https://github.com/itshanine/42-libft/blob/main/ft_isalpha.c)           | Check if a character is alphabetic.          |
 | [ft_memchr.c](https://github.com/itshanine/42-libft/blob/main/ft_memchr.c)             | Search for a character in a block of memory. |
 | [ft_putchar_fd.c](https://github.com/itshanine/42-libft/blob/main/ft_putchar_fd.c)     | Print a character to a file descriptor.      |
+| [ft_itoa.c](https://github.com/itshanine/42-libft/blob/main/ft_itoa.c)                 | Convert an integer to a string.             |
+| [ft_split.c](https://github.com/itshanine/42-libft/blob/main/ft_split.c)               | Split a string into an array of substrings.  |
 
 <h3>
   Bonus part
@@ -87,8 +89,6 @@
 | [ft_lstsize.c](https://github.com/itshanine/42-libft/blob/main/ft_lstsize.c)           | Get the size of a linked list.              |
 | [ft_lstadd_front.c](https://github.com/itshanine/42-libft/blob/main/ft_lstadd_front.c) | Add an element to the beginning of a linked list. |
 | [ft_lstdelone.c](https://github.com/itshanine/42-libft/blob/main/ft_lstdelone.c)       | Delete a single element from a linked list.  |
-| [ft_itoa.c](https://github.com/itshanine/42-libft/blob/main/ft_itoa.c)                 | Convert an integer to a string.             |
-| [ft_split.c](https://github.com/itshanine/42-libft/blob/main/ft_split.c)               | Split a string into an array of substrings.  |
 
 <h2>
   📋 Testing
