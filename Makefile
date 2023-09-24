@@ -6,7 +6,7 @@
 #    By: hanjebou <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/03 12:46:05 by hanjebou          #+#    #+#              #
-#    Updated: 2023/09/21 14:32:42 by hanjebou         ###   ########.fr        #
+#    Updated: 2023/09/24 18:46:06 by hanjebou         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -51,7 +51,9 @@ BONUS_OBJS 	= ${BONUS:.c=.o}
 
 $(NAME):	$(OBJS)
 			@ar rcs $(NAME) $(OBJS)
-			@echo "$(GREEN)➤ libft compiled !$(DEF_COLOR)"
+			@echo "$(GREEN)╭───────────────────────────────────╮$(DEF_COLOR)"
+			@echo "$(GREEN)│         libft compiled !          │$(DEF_COLOR)"
+			@echo "$(GREEN)╰───────────────────────────────────╯$(DEF_COLOR)"
 
 all:        $(NAME)
 
@@ -60,17 +62,27 @@ all:        $(NAME)
 
 clean:
 			@$(RM) $(OBJS) $(BONUS_OBJS)
-			@echo "$(YELLOW)➤ libft object files cleaned !$(DEF_COLOR)"
+			@echo "$(YELLOW)╭───────────────────────────────────╮$(DEF_COLOR)"
+			@echo "$(YELLOW)│       Cleaned object files.       │$(DEF_COLOR)"
+			@echo "$(YELLOW)╰───────────────────────────────────╯$(DEF_COLOR)"
 
-fclean:		clean
-			@$(RM) $(NAME)
-			@echo "$(YELLOW)➤ libft executable files cleaned !$(DEF_COLOR)"
+fclean:		
+			@$(RM) $(OBJS) $(BONUS_OBJS) $(NAME)
+			@echo "$(YELLOW)╭───────────────────────────────────╮$(DEF_COLOR)"
+			@echo "$(YELLOW)│ Cleaned object files and libft.a. │$(DEF_COLOR)"
+			@echo "$(YELLOW)╰───────────────────────────────────╯$(DEF_COLOR)"
 
 re:			fclean $(NAME)
-			@echo "$(CYAN)➤ Cleaned and rebuilt libft !$(DEF_COLOR)"
+			@echo "$(CYAN)╭───────────────────────────────────╮$(DEF_COLOR)"
+			@echo "$(CYAN)│    libft cleaned and rebuilt !    │$(DEF_COLOR)"
+			@echo "$(CYAN)╰───────────────────────────────────╯$(DEF_COLOR)"
 
 bonus:		$(OBJS) $(BONUS_OBJS)
 			@ar rcs $(NAME) $(OBJS) $(BONUS_OBJS)
-			@echo "$(GREEN)➤ libft compiled ! (with bonus)$(DEF_COLOR)"
+			@echo "$(GREEN)╭───────────────────────────────────╮$(DEF_COLOR)"
+			@echo "$(GREEN)│   libft compiled ! (with bonus)   │$(DEF_COLOR)"
+			@echo "$(GREEN)╰───────────────────────────────────╯$(DEF_COLOR)"
+
+.SILENT:	${OBJS} ${BONUS_OBJS}
 
 .PHONY:		all clean fclean re bonus
