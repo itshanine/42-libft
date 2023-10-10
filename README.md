@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/grade-125/100-brightgreen"/>
-  <img src="https://img.shields.io/github/directory-file-count/itshanine/42-libft?color=%23FFC3E5"/>
-  <img src="https://img.shields.io/github/languages/count/itshanine/42-libft?color=%23FFC3E5" />
-  <img src="https://img.shields.io/github/languages/top/itshanine/42-libft?color=%23FFC3E5" />
-  <img src="https://img.shields.io/github/last-commit/itshanine/42-libft?color=%23FFC3E5" />
+  <img src="https://img.shields.io/github/directory-file-count/itshanine/42-libft?color=ff595e"/>
+  <img src="https://img.shields.io/github/languages/count/itshanine/42-libft?color=ffca3a" />
+  <img src="https://img.shields.io/github/languages/top/itshanine/42-libft?color=8ac926" />
+  <img src="https://img.shields.io/github/last-commit/itshanine/42-libft?color=1982c4" />
+  <img src="https://img.shields.io/github/watchers/itshanine/42-libft?color=6a4c93" />
 </p>
 
 ---
