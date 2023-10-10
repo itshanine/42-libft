@@ -75,7 +75,7 @@
 | [ft_split.c](https://github.com/itshanine/42-libft/blob/main/ft_split.c)               | Split a string into an array of substrings.  |
 
 <h3>
-  Bonus part
+  Bonus functions
 </h3>
 
 | File                                                                                   | Summary                                       |
